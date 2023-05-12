@@ -1,0 +1,8 @@
+### Random Number in a range
+GET http://localhost:4000/random-number-in-range/10/200
+
+### Random person details
+GET http://localhost:4000/random-person?properties=firstname,lastname,email,avatar,phone
+
+### String details: letter count, number count, symbol/special char count
+GET http://localhost:4000/string-details?string=thequickBBrownFox2323232^**$ss99
